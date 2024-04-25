@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:antiquewhite;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.choices button {
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.choices button:hover {
+  background-color: #45a049;
+}
+
+#playerDisplay, #computerDisplay {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#resultDisplay {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.scoreDisplay {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.scoreDisplay span {
+  font-weight: bold;
+  margin-left: 5px;
+  color: #333;
+}
+
+#resetButton {
+  font-size: 1rem;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+  margin-top: 20px;
+}
+
+#resetButton:hover {
+  background-color: #d32f2f;
+}
